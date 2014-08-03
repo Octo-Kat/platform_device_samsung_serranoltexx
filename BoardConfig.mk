@@ -29,6 +29,11 @@ TARGET_OTA_ASSERT_DEVICE := serranolte,serranoltebmc,serranoltektt,serranoltexx
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_eur_lte_defconfig
 
+# Toolchain
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.8
+TARGET_KERNEL_CUSTOM_TOOLCHAIN_PREFIX := arm-cortex_a15-linux-gnueabihf-
+TARGET_GCC_VERSION_AND := 4.8
+
 # NFC
 BOARD_HAVE_NFC := true
 
